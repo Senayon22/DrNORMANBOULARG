@@ -1,31 +1,52 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+}
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+main{
+   margin: 30px 8px;
+   padding: 15px;
+   border-radius: 5px;
+   
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    line-height: 2;
     text-align: center;
-    background: mintcream;
-    text-transform: uppercase;
-    padding: 30px; 
-    color: black;
+    background: #eee;
+    padding-top: 30px; 
+    padding-bottom: 5px;
+    color: #333;
     word-spacing: 2px;
 }
+
  p{
     text-align: center;
-    padding-top: 20px;
-    word-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    word-spacing: 2px;
+    background: #eee;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    
  }
 
  h3{
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 7px;
     font-size: larger;
     word-spacing: 2px;
+    background: #eee;
  }
 
  img{
@@ -37,31 +58,41 @@ h1{
     align-items: center;
     padding: auto;
     margin: auto;
+    background: none;
  }
  li{
     word-spacing: 2px;
     padding: auto;
     margin-left: 20%;
     margin-right: 20%;
-    
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 12px;
     
  }
 
  cite{
-    text-align: center;
-    justify-content: center;
-    margin-left: 400px;
-    word-spacing: 3px;word-spacing: 2px
+    text-align: left;
+    justify-content: left;
+    margin-left: 17%;
+    word-spacing: 3px;
     font-style: italic;
     
  }
 
  div{
-    background: mintcream;
+    background: #eee;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 2%;
+ }
+ figcaption{
+   background: none;
+   text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
  }
  
  .paragraph{
@@ -70,5 +101,18 @@ h1{
     justify-content: center;
     margin-left: 400px;
     margin-right: 400px;
+
+ }
+
+ blockquote{
+   font-style: italic;
+   max-width: 500px;
+   margin-left: 17%;
+   margin-top: none;
+   text-align: justify;
+   justify-content: center;
+   
+   font-size: 1.2rem;
+   color: #333;
 
  }
